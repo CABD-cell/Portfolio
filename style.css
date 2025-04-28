@@ -107,7 +107,7 @@ header .menu li a:hover {
 
 /* Accueil CSS */
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), #333), url("image/diop.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), #333), url("image/PhotoGrid_1564920794493.jpg");
     background-position: center;
     background-size: cover;
     height: calc(180vh - 60px);
@@ -149,11 +149,12 @@ header .menu li a:hover {
 }
 
 #home h4 {
-    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: capitalize;
-    animation: fadeInText 1.5s ease-out 0.5s;
+    animation: fadeInText 2s ease-out 0.5s;
 }
 
 @keyframes fadeInText {
@@ -166,9 +167,12 @@ header .menu li a:hover {
 }
 
 #home p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;   
     color: #fff;
-    margin-bottom: 10px;
-    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    line-height: 1.6;
 }
 
 #home a.button-disc {
@@ -432,16 +436,19 @@ footer p span a {
         display: none;
     }
     #home h2 {
-        font-size: 20px;
+        font-size: 30px;
         -webkit-text-stroke: 0;
         color: #fff;
     }
     #home h4 {
-        font-size: 28px;
+        font-size: 20px;
     }
     #home  p{
         text-align: center;
-        font-size: 10px;
+        font-size: 20px;
+     
+        line-height: 1.6;
+        margin: 20px;
     }
     .home-btn{
         display: block;
